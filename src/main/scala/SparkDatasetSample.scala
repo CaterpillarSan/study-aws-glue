@@ -1,8 +1,6 @@
 import org.apache.spark.sql.functions.lit
 import org.apache.spark.sql.SparkSession
 
-case class Person(name: String, age: Long)
-
 object SparkDatasetSample {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder.getOrCreate()
